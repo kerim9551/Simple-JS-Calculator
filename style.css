@@ -1,0 +1,116 @@
+body {
+    width: 510px;
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.9rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.calculator {
+    background-color: #191c1c;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.input {
+    background-color: #203635;
+    border-radius: 50px;
+    height: 100px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+
+
+.buttons {
+    margin: 0px 0px 0px 5px;
+}
+
+.operators {}
+
+.operators div {
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #95b1af;
+    transition: all .2s ease-in-out;
+}
+
+.operators div:active {
+    font-weight: bold;
+    border-radius: 25%;
+}
+
+.operators div p {
+    margin: 0 auto;
+    padding: 22px 0px 0px 5px;
+}
+
+.leftPanel {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #1b2525;
+    color: #e1e3e2;
+    transition: all .2s ease-in-out;
+}
+
+.numbers div:active {
+    font-weight: bold;
+    border-radius: 25%;
+
+}
+
+.numbers div p {
+    margin: 0 auto;
+    padding: 22px 0px 0px 5px;
+}
+
+div.equal {
+    display: inline-block;
+    border-radius: 50px;
+    width: 22%;
+    height: 464px;
+    text-align: center;
+    margin: 10px 0px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #6ff7f2;
+    transition: all .2s ease-in-out;
+}
+
+div.equal:active {
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+div.equal p {
+    padding: 180px 0px;
+}
+
+#clear {
+    background-color: #d0e4ff;
+    color: #000;
+}
