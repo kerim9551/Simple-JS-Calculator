@@ -26,3 +26,19 @@ for (var i = 0; i < number.length; i++) {
 
     });
 }
+
+for (var i = 0; i < operator.length; i++) {
+    operator[i].addEventListener("click", function(e) {
+        var currentString = input.innerHTML;
+        var lastChar = currentString[currentString.length - 1];
+
+        if (lastChar === "+" || lastChar === "-" || lastChar === "×" || lastChar === "÷") {
+            var newString = currentString.substring(0, currentString.length - 1) + e.target.innerHTML;
+            input.innerHTML = newString;
+        } else if (currentString.length == 0) {
+            console.log("enter a number first");
+        } else {
+            input.innerHTML += e.target.innerHTML;
+        }
+    });
+}
