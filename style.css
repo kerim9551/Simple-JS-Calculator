@@ -18,12 +18,13 @@ body {
 .input {
     background-color: #203635;
     border-radius: 50px;
-    height: 100px;
+    height: 60px;
     padding-right: 15px;
     padding-top: 10px;
     text-align: right;
     margin-right: 6px;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
+    color: #fff;
     overflow-x: auto;
     transition: all .2s ease-in-out;
 }

@@ -80,3 +80,7 @@ result.addEventListener("click", function() {
 
     resultDisplayed = true;
 });
+
+clear.addEventListener("click", function() {
+    input.innerHTML = "";
+})
